@@ -13,4 +13,6 @@ See [https://tsmatz.wordpress.com/2018/03/19/rxneuralnet-tutorial-for-sql-server
 sqlcmd -U xxxxx -P P@ssw0rd -i createtable.sql -v datafile="C:\Demo\mnist_table.csv"
 ```
 
+3. Run mnist_rxnuralnet.R using generated table !
+
 Note : "bulkadmin" or "sysadmin" role is needed.
