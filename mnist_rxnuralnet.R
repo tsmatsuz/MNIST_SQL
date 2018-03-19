@@ -1,6 +1,5 @@
 ### Set compute context
-#con <- "Driver=SQL Server;Server=40.71.201.136;Database=testdb;Uid=demouser01;Pwd=P@ssw0rd"
-con <- "Driver=SQL Server;Server=52.168.125.166;Database=testdb;Uid=demouser01;Pwd=P@ssw0rd"
+con <- "Driver=SQL Server;Server={your server address};Database={your database};Uid={db user id};Pwd={db user password}"
 sqlCompute <- RxInSqlServer(
   connectionString = con,
   wait = T,
