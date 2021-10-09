@@ -1,4 +1,4 @@
-# Run Deep Learning (rxNeuralNet) on SQL Server Machine Learning Services
+# Neural Network Learner (MNIST) on SQL Server Machine Learning Services
 
 This is the SQL script to generate SQL Server's table for well-know MNIST (hand-writing digits) dataset.
 
